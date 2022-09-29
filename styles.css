@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Parisienne&display=swap');
+
+
+body {
+    background-color: black;
+}
+h1{
+    font-family: 'Parisienne', cursive;
+    font-size: 50px;
+    color: white;
+}
+
+p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    color: white;
+}
+
+li{
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none
+    
+}
+
+a:hover {
+    background-color: white;
+    color: black
+}
+
+div.a {
+    text-align: center;
+}
+
