@@ -1,16 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Oswald&family=Parisienne&family=Sacramento&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Monoton&family=Oswald&family=Parisienne&family=Sacramento&display=swap');
 body {
     background-color: black;
+    margin: 0;
 }
 h1{
-    font-family: 'Monoton', cursive;
+    font-family: 'Courgette', cursive;
     font-size: 60px;
     color: white;
 }
 
+
+
 p{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Courgette', cursive;
     font-size: 22px;
     color: white;
 }
@@ -22,7 +24,7 @@ li{
 }
 
 a{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Courgette', cursive;
     color: gray;
     text-decoration: none
 }
@@ -32,7 +34,7 @@ a:hover {
     color: black
 }
 
-div.a {
+.center{
     text-align: center;
 }
 
@@ -48,4 +50,9 @@ div.a {
     text-decoration: none;
     background-color: white;
     padding: 8px;
+}
+
+main{
+    max-width: 600px;
+    margin: 0 auto;
 }
