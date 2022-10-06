@@ -2,38 +2,37 @@
 body {
     background-color: black;
     margin: 0;
+    font-family: 'Courgette', cursive;
+    font-size: 22px;
+    color: black;
 }
 h1{
     font-family: 'Courgette', cursive;
     font-size: 60px;
     color: white;
 }
-
-
-
+form {
+    background-color: white;
+    padding: 10px
+}
 p{
     font-family: 'Courgette', cursive;
     font-size: 22px;
     color: white;
 }
-
 li{
     font-family: 'Oswald', sans-serif;
     font-size: 22px;
     color: white;
 }
-
 a{
     font-family: 'Courgette', cursive;
     color: gray;
     text-decoration: none
 }
-
 a:hover {
-    background-color: white;
-    color: black
+    color: white
 }
-
 .center{
     text-align: center;
 }
@@ -55,4 +54,25 @@ a:hover {
 main{
     max-width: 600px;
     margin: 0 auto;
+}
+
+input[type = submit],[type = reset] {
+    font-family: 'Courgette', cursive;
+    background-color: white;
+    padding: 8px;
+    
+}
+input[type = submit]:hover, [type = reset]:hover {
+    font-family: 'Courgette', cursive;
+    background-color: #b6b2ae;
+    padding: 8px;
+}
+
+input[type = text],[type = email] {
+    background-color: white;
+}
+
+.LinkTree {
+    background-color: white;
+    padding: 10px
 }
