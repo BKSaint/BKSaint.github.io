@@ -76,3 +76,34 @@ input[type = text],[type = email] {
     background-color: white;
     padding: 10px
 }
+
+#sat {
+    padding-top: 600px;
+    padding-left: 900px;
+    height: 200px;
+}
+
+#sat > img:hover {
+     height: 225px
+}
+
+@media screen and (max-width:500px) {
+    #portrait {
+        width:20vw;
+        height: auto;
+    }
+    p, h1 {
+    font-size: 0.5rem;
+    }
+}
+@media screen and (max-width:1000px) {
+    #portrait {
+        width: 5vw;
+        height: auto;
+    }
+
+    p, h1 {
+    font-size: 1rem;
+    }
+}
+
