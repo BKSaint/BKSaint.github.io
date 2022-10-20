@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Monoton&family=Oswald&family=Parisienne&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Josefin+Sans&family=Monoton&family=Oswald&family=Parisienne&family=Sacramento&family=Share+Tech+Mono&display=swap');
 body {
     background-color: black;
     margin: 0;
@@ -15,10 +15,15 @@ form {
     background-color: white;
     padding: 10px
 }
-p{
-    font-family: 'Courgette', cursive;
+p, h4, h5, h6{
+    font-family: 'Share Tech Mono', monospace;
     font-size: 22px;
-    color: white;
+    color: green;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    padding-right:0px;
+    background-color: black;
 }
 li{
     font-family: 'Oswald', sans-serif;
@@ -78,34 +83,91 @@ input[type = text],[type = email] {
 }
 
 #sat {
-    padding-top: 600px;
-    padding-left: 900px;
+    padding-top: 400px;
+    padding-left: 250px;
+    position: fixed;
     height: 200px;
 }
 
-#sat > img:hover {
-     height: 225px
+#sat:hover {
+    transform: scale(1.2, 1.2) translate(-25px, -25px)
 }
+
+#planet {
+    position:fixed;
+    padding-top: 500px;
+}
+
+span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
 
 @media screen and (max-width:600px) {
     #portrait {
-        width:20vw;
+        width: 35vw;
         height: auto;
+        padding: 2px;
     }
-    p, h1 {
-    font-size: 0.5rem;
+    main {
+        max-width: 500px;
+    }
+    h1 {
+    font-size: 1.5rem;
+    }
+    p {
+    font-size: 1.5rem;
     }
 }
 
-
-@media screen and (min-width:601px) {
+@media screen and (min-width:601px) and (max-width:830px) {
     #portrait {
-        width: 16vw;
+        width: 28vw;
         height: auto;
+        padding: 3px;
     }
+    h1 {
+    font-size: 2.5rem;
+    }
+    p {
+    font-size: 1.5rem;
+    }
+}
 
-    p, h1 {
-    font-size: 1rem;
+@media screen and (min-width:831px) and (max-width:1200px) {
+    #portrait {
+        width: 22vw;
+        height: auto;
+        padding: 3px;
+    }
+    h1 {
+    font-size: 2.5rem;
+    }
+    p {
+    font-size: 1.9rem;
+    }
+}
+
+@media screen and (min-width:1201px) {
+    #portrait {
+        width: 20vw;
+        height: auto;
+        padding: 5px
+    }
+    main {
+    max-width: 800px;
+    }
+    h1 {
+    font-size: 3.5rem;
+    }
+    p {
+    font-size: 1.6rem;
     }
 }
 
